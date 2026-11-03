@@ -1,23 +1,31 @@
 body {
-    font-family: Arial, sans-serif;
-    background-color: #ffffcc;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgba(236, 221, 102, 0.5);
+    color: #000000;
+    font-size: 16px;
+}
+
+h1, h2, h3 {
+    color:#ffffff;
+    background-color:#260e5c;
+    font-size: 24px;
+    font: serif;
+}
+
+a {
+    color:#5ad460;
 
 }
 
-h2 {
-    background-color: darkblue;
-    color: white;
+strong {
+    background-color: #260e5c;
 }
 
-.warning {
-    background-color: darkred;
-    font-weight: bold;
+.class1 {
+    background-color: #260e5c;
 }
 
-.sans-serif {
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-} 
-
-.serif {
-    font-family: "Times New Roman", Georgia, serif;
+.class2 {
+    color: #ffffff;
+    background-color: rgba(26, 95, 25, 0.7);
 }
