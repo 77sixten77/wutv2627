@@ -7,25 +7,29 @@ body {
 
 h1, h2, h3 {
     color:#ffffff;
-    background-color:#260e5c;
+    background-color: rgba(16, 78, 11, 0.9);
     font-size: 24px;
     font: serif;
 }
 
 a {
-    color:#5ad460;
+    color:#aaffae;
 
 }
 
-strong {
-    background-color: #260e5c;
+.class3{
+    background-color: #125c0e;
 }
 
 .class1 {
-    background-color: #260e5c;
+    background-color: #aaffae;
 }
 
 .class2 {
     color: #ffffff;
-    background-color: rgba(26, 95, 25, 0.7);
+    background-color: rgba(26, 95, 25, 0.9);
+}
+
+.white {
+    color: #ffffff;
 }
