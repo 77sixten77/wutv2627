@@ -1,0 +1,7 @@
+.profile-card {
+    background-color: rgb(236, 221, 102);
+    max-width: 600px;
+    padding: 20px;
+    border: 4px dashed #0c8f24;
+    margin: 0 auto;
+}
