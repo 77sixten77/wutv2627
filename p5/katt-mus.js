@@ -93,8 +93,31 @@ circle(playerMouseX, playerMouseY, mouseSize);
       circle(mouseX, mouseY, 100);
     }
   
+    fill("darkorange");
+    triangle(catX-catSize/2.3, catY-catSize/4, catX-catSize/6, 
+    catY-catSize/2.1, catX-catSize/2.3, catY-catSize/1.5);
+    triangle(catX+catSize/2.3, catY-catSize/4, catX+catSize/6, 
+    catY-catSize/2.1, catX+catSize/2.3, catY-catSize/1.5);
     fill('orange');
     circle(catX, catY, catSize);
+    
+    fill("pink")
+    circle(catX, catY+catSize/8, catSize/6);
+
+    fill("white")
+    triangle(catX-catSize/6, catY+catSize/4, catX+catSize/6, catY+catSize/4, catX, catY+catSize/2.5);
+
+    fill("red")
+    triangle(catX-catSize/8, catY-catSize/15, catX-catSize/2.6, catY-catSize/4, catX-catSize/2.6, catY-catSize/8);
+    triangle(catX+catSize/8, catY-catSize/15, catX+catSize/2.6, catY-catSize/4, catX+catSize/2.6, catY-catSize/8);
+    
+    fill("black")
+    line(catX-catSize/8, catY+catSize/26, catX-catSize/3, catY-catSize/20);
+    line(catX+catSize/8, catY+catSize/26, catX+catSize/3, catY-catSize/20);
+    line(catX-catSize/8, catY+catSize/8, catX-catSize/3, catY+catSize/6);
+    line(catX+catSize/8, catY+catSize/8, catX+catSize/3, catY+catSize/6);
+    
+    
     
       
     // Musstyrning
