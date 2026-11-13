@@ -101,7 +101,7 @@ circle(playerMouseX, playerMouseY, mouseSize);
     fill('orange');
     circle(catX, catY, catSize);
     
-    fill("pink")
+    fill("darkorange")
     circle(catX, catY+catSize/8, catSize/6);
 
     fill("white")
