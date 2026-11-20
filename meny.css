@@ -1,0 +1,33 @@
+body {
+    background-color: #ffffcc;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(7, 65, 9);
+    color: white;
+    border-bottom: 1px dashed white;
+    
+}
+
+.nav-links {
+    display: flex;
+    gap: 20px;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    
+}
+
+.navbar a {
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    
+}
+
+.nav-links a:hover {
+    text-decoration: underline;
+
+}
+
