@@ -17,6 +17,11 @@ a {
 
 }
 
+a:hover {
+    text-decoration: underline;
+
+}
+
 .class3{
     background-color: #125c0e;
 }
@@ -78,4 +83,14 @@ a {
     height: 120px;
     margin: auto;
     display: block;
+}
+
+.card-black-text {
+    text-align: left; 
+    background-color:rgba(121, 110, 25, 0.5);
+    color: #000000;
+    padding: 20px;
+    border: 4px solid #146f08;
+    margin: 10px;
+    border-radius: 15px;
 }
