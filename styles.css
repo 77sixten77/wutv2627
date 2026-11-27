@@ -1,0 +1,96 @@
+body {
+    font-family: Georgia, Garamond, serif;
+    background-color: rgba(228, 211, 77, 0.8);
+    color: #000000;
+    font-size: 16px;
+}
+
+h1, h2, h3 {
+    color:#ffffff;
+    background-color: rgba(16, 78, 11, 0.9);
+    font-size: 24px;
+    font: serif;
+}
+
+a {
+    color:#aaffae;
+
+}
+
+a:hover {
+    text-decoration: underline;
+
+}
+
+.class3{
+    background-color: #125c0e;
+}
+
+.class1 {
+    background-color: #aaffae;
+}
+
+.class2 {
+    color: #ffffff;
+    background-color: rgba(26, 95, 25, 0.9);
+}
+
+.white {
+    color: #ffffff;
+}
+
+.container {
+    max-width: 600px;
+    background-color: #c8af30;
+    padding: 15px;
+    margin: 5px auto;
+    border-radius: 15px;
+    display: flex;
+    gap: 8px;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.card {
+    text-align: left; 
+    background-color:rgba(121, 110, 25, 0.5);
+    color: #ffffff;
+    padding: 20px;
+    border: 4px solid #146f08;
+    margin: 10px;
+    border-radius: 15px;
+}
+
+.centered-card {
+    text-align: center; 
+    background-color:rgba(121, 110, 25, 0.5);
+    color: #ffffff;
+    padding: 20px;
+    border: 4px solid #146f08;
+    margin: 10px;
+    border-radius: 15px;
+}
+
+.myimage{
+    width: 150px; 
+    height: 200px;
+    margin: 7px auto;
+    display: block;
+}
+
+.kompisimage {
+    width: 150px; 
+    height: 120px;
+    margin: auto;
+    display: block;
+}
+
+.card-black-text {
+    text-align: left; 
+    background-color:rgba(121, 110, 25, 0.5);
+    color: #000000;
+    padding: 20px;
+    border: 4px solid #146f08;
+    margin: 10px;
+    border-radius: 15px;
+}
